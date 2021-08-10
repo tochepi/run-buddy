@@ -12,3 +12,5 @@ A website that offers fitness training services.
  
  ## Contribution
  Made with &hearts; by Christy Toch
+
+### &copy;2019 Run Buddy, Inc
