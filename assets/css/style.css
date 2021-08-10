@@ -103,21 +103,18 @@ header nav ul li a {
 /* hero style end */
 
 /* what we do start */
-.intro {
-    text-align: center;
-}
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin:  0 auto;
+    text-align: center;
 }
 /* what we do end */
 
 /* what you do start */
 .steps {
-    text-align: center;
     background:#fce138;
 }
 .steps div {
@@ -142,9 +139,6 @@ header nav ul li a {
 /* what you do end */
 
 /* meet the trainers start */
-.trainers {
-    text-align: center;
-}
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -179,7 +173,6 @@ header nav ul li a {
 /* reach out start */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 .contact h2 {
     color: #fce138;
@@ -241,10 +234,12 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -257,5 +252,8 @@ section {
 }
 .text-right {
     text-align: right;
+}
+.flex-row {
+    display: flex;
 }
 /* utlity classes end */
